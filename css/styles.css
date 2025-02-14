@@ -1,6 +1,4 @@
 :root {
-  --primary-font: "Roboto", serif;
-  --logo-font: "Raleway", serif;
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -16,7 +14,7 @@
 }
 
 body {
-  font-family: var(--primary-font);
+  font-family: "Roboto", serif;
   color: var(--slate);
   background-color: var(--white);
   line-height: 1.5;
@@ -32,20 +30,20 @@ a {
 }
 
 .logo {
-  font-family: var(--logo-font);
-  color: var(--navy-blue);
+  font-family: "Raleway", serif;
+  color: var(--iris);
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .accent {
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 .accent-white {
-  color: var(--white);
+  color: var(--cloud);
 }
 
 .nav-list-item {
@@ -59,9 +57,13 @@ a {
   color: var(--ocean);
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-list-item {
   font-family: inherit;
-  font-style: normal;
+
   letter-spacing: 0.02em;
   color: inherit;
 }
@@ -73,7 +75,9 @@ a {
 
 .hero {
   background-color: var(--navy-blue);
+  text-align: center;
 }
+
 .hero-title {
   color: var(--white);
   font-weight: 700;
@@ -83,24 +87,23 @@ a {
 }
 
 .btn {
+  font-family: "Roboto", sans-serif;
   color: var(--white);
   font-weight: 500;
   letter-spacing: 0.04em;
+  line-height: 1.5;
   background-color: var(--iris);
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: var(--ocean);
   cursor: pointer;
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -111,7 +114,10 @@ a {
   color: var(--navy-blue);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .subtitle {
@@ -122,10 +128,22 @@ a {
   letter-spacing: 0.02em;
 }
 
+.text {
+  font-size: 16px;
+}
+
 .team {
   background-color: var(--cloud);
 }
 
 .team-card {
   background-color: var(--white);
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.copyritht {
+  color: var(--cloud);
 }
