@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   color: var(--slate);
   background-color: var(--white);
   line-height: 1.5;
@@ -30,7 +30,7 @@ a {
 }
 
 .logo {
-  font-family: "Raleway", serif;
+  font-family: "Raleway", sans-serif;
   color: var(--iris);
   font-weight: 700;
   text-transform: uppercase;
