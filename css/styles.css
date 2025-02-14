@@ -1,0 +1,131 @@
+:root {
+  --primary-font: "Roboto", serif;
+  --logo-font: "Raleway", serif;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--slate);
+  background-color: var(--white);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  color: var(--navy-blue);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.accent {
+  color: var(--iris);
+}
+
+.accent-white {
+  color: var(--white);
+}
+
+.nav-list-item {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: var(--ocean);
+}
+
+.address-list-item {
+  font-family: inherit;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.address-list-item:hover,
+.address-list-item:focus {
+  color: var(--ocean);
+}
+
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-title {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background-color: var(--iris);
+}
+
+.btn:hover {
+  background-color: var(--ocean);
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.subtitle {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team-card {
+  background-color: var(--white);
+}
