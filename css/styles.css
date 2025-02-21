@@ -48,12 +48,17 @@ img {
   max-width: 100%;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  /* padding: 0 156px; */
   border: 1px solid red;
 }
+
+
 
 /* #region Header */
 .header {
@@ -78,9 +83,6 @@ img {
   display: flex;
   gap: 40px;
 }
-
-
-/* #endregion */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -126,6 +128,10 @@ img {
   color: var(--ocean);
 }
 
+/* #endregion */
+
+/* #region Hero */
+
 .hero {
   background-color: var(--navy-blue);
   text-align: center;
@@ -137,6 +143,7 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 
 .btn {
@@ -146,6 +153,9 @@ img {
   letter-spacing: 0.04em;
   line-height: 1.5;
   background-color: var(--iris);
+  padding: 16px 32px;
+  border-radius: 4px;
+  border-style: none;
 }
 
 .btn:hover,
@@ -153,6 +163,12 @@ img {
   background-color: var(--ocean);
   cursor: pointer;
 }
+
+/* #endregion */
+
+
+
+
 
 .visually-hidden {
   margin: -1px;
