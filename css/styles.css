@@ -166,9 +166,7 @@ img {
 
 /* #endregion */
 
-
-
-
+/* #region Features */
 
 .visually-hidden {
   margin: -1px;
@@ -178,6 +176,17 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.features {
+  display: flex;
+  gap: 24px;
+}
+
+/* #endregion */
+
+
+
+
 
 .section-title {
   color: var(--navy-blue);
@@ -195,6 +204,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .text {
