@@ -55,25 +55,37 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid red;
 }
 
 /* #region Header */
+
 .header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
-  border-bottom: 1px solid var(--cornflower);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 
 .nav-list {
   display: flex;
   gap: 40px;
+}
+
+.nav .logo {
+  margin-right: 76px;
 }
 
 .address-list {
@@ -102,6 +114,7 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding: 24px 0;
 }
 
 .nav-list-item:hover,
@@ -131,7 +144,13 @@ img {
 
 .hero {
   background-color: var(--navy-blue);
-  text-align: center;
+}
+
+.hero-container {
+  padding: 188px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
@@ -141,6 +160,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .btn {
@@ -153,6 +173,9 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   border-style: none;
+  display: block;
+  min-width: 169px;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -166,8 +189,12 @@ img {
 /* #region Features */
 
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
+  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -177,6 +204,10 @@ img {
 .features {
   display: flex;
   gap: 24px;
+}
+
+.feature-card {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 /* #endregion */
@@ -194,13 +225,20 @@ img {
 
 .team-card {
   background-color: var(--white);
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card-info {
-  margin: 32px 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 32px 0px;
+}
+
+.subtitle-team {
+  text-align: center;
+}
+
+.text-team {
+  text-align: center;
 }
 
 /* #endregion */
