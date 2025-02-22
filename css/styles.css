@@ -75,13 +75,26 @@ img {
   align-items: center;
 }
 
+.nav .logo {
+  margin-right: 76px;
+}
+
 .nav-list {
   display: flex;
   gap: 40px;
 }
 
-.nav .logo {
-  margin-right: 76px;
+.nav-list-item {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  padding: 24px 0;
+  display: block;
+}
+
+.item:hover,
+.item:focus {
+  color: var(--ocean);
 }
 
 .address-list {
@@ -104,21 +117,6 @@ img {
 
 .accent-white {
   color: var(--cloud);
-}
-
-.nav-list-item {
-  padding: 24px 0;
-}
-
-.item {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-
-.nav-list-item:hover,
-.nav-list-item:focus {
-  color: var(--ocean);
 }
 
 .address {
