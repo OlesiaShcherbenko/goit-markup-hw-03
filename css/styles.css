@@ -55,7 +55,6 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 /* #region Header */
@@ -228,6 +227,24 @@ img {
 
 /* #endregion */
 
+/* #region Footer */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-copyright {
+  padding: 100px 0;
+}
+
+.copyright {
+  color: var(--cloud);
+  margin-top: 16px;
+  max-width: 264px;
+}
+
+/* #endregion */
+
 .section-title {
   color: var(--navy-blue);
   font-weight: 700;
@@ -250,12 +267,4 @@ img {
 
 .text {
   font-size: 16px;
-}
-
-.footer {
-  background-color: var(--navy-blue);
-}
-
-.copyritht {
-  color: var(--cloud);
 }
