@@ -206,6 +206,28 @@ img {
 
 /* #endregion */
 
+/* #region Portfolio */
+
+.portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-card {
+  width: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-card-info {
+  padding: 32px 16px;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
+}
+
+/* #endregion */
+
 .section-title {
   color: var(--navy-blue);
   font-weight: 700;
